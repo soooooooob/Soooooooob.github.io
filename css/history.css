@@ -1,0 +1,59 @@
+.history {
+  padding: 100px 0;
+  transition: all 0.3s ease;
+}
+
+.history .title::after {
+  content: "My history is..";
+}
+
+.history .history-content {
+  margin-bottom: 100px;
+}
+
+.history .history-content .left {
+  width: 30%;
+}
+
+.history .history-content .center {
+  width: 30%;
+}
+
+.history .history-content .right {
+  width: 30%;
+}
+
+.history .history-content .history {
+  background-color: rgb(240, 236, 236);
+  border-radius: 6px;
+  padding: 25px 35px;
+  transition: all 0.3s ease;
+}
+
+.history .history-content .history img {
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 5px solid rgb(255, 164, 45);
+  transition: all 0.3s ease;
+}
+
+.history .history-content .history-text {
+  font-size: 25px;
+  font-weight: 600;
+}
+.history .history-content p {
+  font-size: 18px;
+  text-align: justify;
+}
+
+.history .history-content .history:hover {
+  background-color: rgb(25, 8, 53);
+  color: white;
+  transform: scale(1.05);
+}
+
+.history .history-content .history:hover img {
+  border-color: white;
+}
